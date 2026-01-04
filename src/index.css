@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet');
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: black;
+    box-shadow: 0 10px 20px rgba(0 ,0 , 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+}
+
+.navbar-contianer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+    max-width: 1600;
+
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-contianer .nav-menu{
+    display: flex;
+    text-align: center;
+    gap: 1.5rem;
+    list-style: none;
+    
+}
+
+.navbar-contianer .nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 3px 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.7s ease;
+    white-space: nowrap;
+}
+
+.navbar-contianer .nav-menu li a:hover{
+    color: black;
+    background: aqua;
+    border:  #fff solid;
+}
