@@ -1,6 +1,7 @@
 import Header from "./Header"
 import Footer from "./Footer"
 import Hero from "./Hero"
+import About from "./About"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header></Header>
       <Hero></Hero>
+      <About></About>
       <Footer></Footer>
     </>  
   );
