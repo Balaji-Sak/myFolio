@@ -1,4 +1,4 @@
-import myPhoto from "./assets/myPhoto.jpg"
+import myPhoto from "../assets/myPhoto.jpg"
 
 
 function Hero() {
@@ -14,6 +14,7 @@ function Hero() {
                 <img src={myPhoto} alt="profile pic" />
 
             </div>
+            
         </section>
     );
 }
